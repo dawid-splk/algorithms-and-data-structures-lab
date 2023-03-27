@@ -11,17 +11,6 @@ public class Huffman {
     }
 
     public HashMap<Character, Integer> countOccurances(){
-//        text = text.replace(" ", "");
-//        text = text.replace(".", "");
-//        text = text.replace(",", "");
-//        text = text.replace("\n", " ");
-//        text = text.replace(",", "");
-//        text = text.replace("(", "");
-//        text = text.replace(")", "");
-//        text = text.replace(":", "");
-
-//        text = text.toLowerCase();
-//        System.out.println(text);
 
         HashMap<Character, Integer> occurances = new HashMap<>();
         char temp;
