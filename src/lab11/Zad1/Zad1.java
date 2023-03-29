@@ -5,8 +5,6 @@ public class Zad1 {
     public static void main(String[] args) {
         String string = "Zaimplementuj metode Grahama wyznaczania otoczki wypuklej zbioru punktow. W ramach\n" +
                 "zadania nalezy utworzyc metode sortowania polarnego zbioru punktow.";
-//        String string = "Ala.,.   ma()  : kota.";
-//        String string = "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbccccccccccccddddddddddddddddeeeeeeeeefffff";
         Huffman test = new Huffman(string);
         test.printOccurances();
         test.printHuffmansCodes();
